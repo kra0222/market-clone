@@ -50,7 +50,7 @@ main {
   position: fixed;
   right: 20px;
   bottom: 120px;
-  background-color: var(--buuton-primary);
+  background-color: var(--button-primary);
   color: white;
   padding: 10px 15px;
   border-radius: 25px;
@@ -61,5 +61,5 @@ main {
 }
 
 .write-btn:hover {
-  background-color: var(--buuton-hover);
+  background-color: var(--button-hover);
 }
