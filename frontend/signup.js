@@ -9,12 +9,12 @@ const checkPassword = () => {
     return true;
   } else return false;
 };
+
 const handleSubmit = async (event) => {
   event.preventDefault();
   const formData = new FormData(form);
   const sha256Password = sha256(formData.get("password"));
   formData.set("password", sha256Password);
-  console.log(formData.get("password"));
 
   const div = document.querySelector("#info");
 
